@@ -1,0 +1,43 @@
+.border{
+    height: 120px;
+    width: 100%;
+    border-color: rgb(171, 171, 236);
+       border-style:  solid;
+   border-radius: 5%;
+   border-width: 1px;
+}
+.subheading{
+    text-align: center;
+    color: rgb(92, 88, 88);
+    font-size: large;
+}
+
+.newcases{
+    display: flex;
+    flex-direction: row;
+    color: rgba(110, 110, 206, 0.966);
+    text-align: center;
+    margin-left: 90px;
+    
+    
+}
+.deaths{
+    display: flex;
+    flex-direction: row;
+    color: rgba(235, 79, 79, 0.966);
+    text-align: center;
+    margin-left: 105px;
+    
+}
+.recovery{
+    display: flex;
+    flex-direction: row;
+    color: rgba(73, 175, 115, 0.966);
+    text-align: center;
+    margin-left: 95px;
+    
+}
+.Appbar{
+    width: 100%;
+   color: black;
+}
