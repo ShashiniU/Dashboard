@@ -12,7 +12,9 @@ import Paper from '@material-ui/core/Paper';
 import Link from '@material-ui/core/Link';
 import Chart from './Chart';
 import TotalCases from './TotalCases';
-import Orders from './Order';
+import CollapsibleTable from './CollapsibleTable'
+import Chatbots from './Chatbots'
+
 
 function Copyright() {
   return (
@@ -86,6 +88,9 @@ export default function Dashboard() {
   return (
     
     <div className={classes.root}>
+     
+     
+     <Chatbots/>
       <CssBaseline />
       <AppBar  className="Appbar" >
         <Toolbar className={classes.toolbar}>
@@ -100,10 +105,10 @@ export default function Dashboard() {
      
 
      
-    
 
       <main className={classes.content}>
         <div className={classes.appBarSpacer} />
+       <div  className="mainHeading"> <p>Corona (Covid-19) Situational Analysis Dashboard of Sri Lanka</p></div>
         <Container maxWidth="lg" className={classes.container}>
           <Grid container spacing={5}>
              {/* Total confirmed cases */}
@@ -115,7 +120,7 @@ export default function Dashboard() {
         </Grid>
 
             {/* Chart */}
-            <Grid item xs={12} md={7} lg={6}>
+            <Grid item xs={12} md={7} lg={6} >
               <Paper className={fixedHeightPaper}>
                 <Chart />
               </Paper>
@@ -128,10 +133,10 @@ export default function Dashboard() {
               <TotalCases />
               </Paper>
             </Grid>
-            {/* Recent Orders */}
-            <Grid item xs={120}>
+            {/* Province an District table */}
+            <Grid item xs={120} className="Table" md={12}   lg={20}>
               <Paper className={classes.paper}>
-                <Orders />
+              <CollapsibleTable/>
               </Paper>
             </Grid>
           </Grid>
