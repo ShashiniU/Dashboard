@@ -40,7 +40,9 @@ export default function Chart() {
       <br></br>
       <ResponsiveContainer>
         <LineChart
-          data={data}
+          data={data
+            
+          }
           margin={{
             top: 16,
             right: 16,

@@ -58,3 +58,21 @@
     color: rgb(111, 111, 224);
     font-weight: bold;
 }
+.tableheadleft{
+    font-weight: bold;  
+    text-align: start;  
+}
+.tableheadright{
+    font-weight: bold;   
+    text-align: end; 
+}
+.tableleft{
+    text-align: start; 
+
+}
+.tableright{
+    text-align: end; 
+}
+.tablehead{
+    font-weight: bold;
+}

@@ -14,6 +14,8 @@ import Chart from './Chart';
 import TotalCases from './TotalCases';
 import CollapsibleTable from './CollapsibleTable'
 import Chatbots from './Chatbots'
+import Province from './Province'
+
 
 
 function Copyright() {
@@ -111,11 +113,11 @@ export default function Dashboard() {
        <div  className="mainHeading"> <p>Corona (Covid-19) Situational Analysis Dashboard of Sri Lanka</p></div>
         <Container maxWidth="lg" className={classes.container}>
           <Grid container spacing={5}>
-             {/* Total confirmed cases */}
+             {/* TProvince wise cases cases */}
              <Grid item xs={10} md={4} lg={3}>
           
           <Paper className={fixedHeighRecords}>
-          <TotalCases />
+          <Province />
           </Paper>
         </Grid>
 
@@ -139,6 +141,8 @@ export default function Dashboard() {
               <CollapsibleTable/>
               </Paper>
             </Grid>
+          
+       
           </Grid>
           <Box pt={10}>
             <Copyright />
