@@ -2,10 +2,12 @@
 
 
 Desktop Preview
-![1](https://user-images.githubusercontent.com/71724618/123412179-efe9fa80-d5ce-11eb-8984-e948ebb077e5.png)
+![1](https://user-images.githubusercontent.com/71724618/123417255-2cb8f000-d5d5-11eb-9ea6-d6bb09a201a3.png)
+
 
 Mobile Preview
-![2](https://user-images.githubusercontent.com/71724618/123412214-fb3d2600-d5ce-11eb-9c84-e68c2aca4700.png)
+![2](https://user-images.githubusercontent.com/71724618/123417290-38a4b200-d5d5-11eb-816a-48c688d5a1a8.png)
+
 
 
 
@@ -35,6 +37,9 @@ This is a Dashboard design for both mobile and web applications. The Purpose of 
 <li>Material UI</li>
 <li>Rechart</li>
 <li>CSS</li>
+<li>Nodejs</li>
+  
+  
  
   </section>
   
