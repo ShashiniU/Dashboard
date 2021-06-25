@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
   },
   toolbar: {
-    paddingRight: 24, // keep right padding when drawer closed
+    paddingRight: 24, 
   },
   toolbarIcon: {
     display: 'flex',
@@ -113,7 +113,7 @@ export default function Dashboard() {
        <div  className="mainHeading"> <p>Corona (Covid-19) Situational Analysis Dashboard of Sri Lanka</p></div>
         <Container maxWidth="lg" className={classes.container}>
           <Grid container spacing={5}>
-             {/* TProvince wise cases cases */}
+             {/* Province wise cases cases */}
              <Grid item xs={10} md={4} lg={3}>
           
           <Paper className={fixedHeighRecords}>
