@@ -30,15 +30,11 @@ function createData(name, newCases, deaths, recovery) {
     recovery,    
     
     historywest: [
-      { districtName: 'Colombo', newCases: 882, deaths: 15 ,recovery:100 },
-      { districtName: 'Gampaha', newCases: 900, deaths: 5,recovery: 200},
-      { districtName: 'Kaluthara', newCases: 500, deaths: 1,recovery:300 },
+      { districtName: 'Colombo', newCases: 300, deaths: 15 ,recovery:100 },
+      { districtName: 'Gampaha', newCases: 350, deaths: 5,recovery: 200},
+      { districtName: 'Kaluthara', newCases: 189, deaths: 1,recovery:300 },
     ],
-    historyeast: [
-      { districtName: 'Colombo', newCases: 882, deaths: 15 ,recovery:100 },
-      { districtName: 'Gampaha', newCases: 900, deaths: 5,recovery: 200},
-      { districtName: 'Kaluthara', newCases: 500, deaths: 1,recovery:300 },
-    ],
+   
     
   };
 }
@@ -119,15 +115,15 @@ Row.propTypes = {
 };
 
 const rows = [
-  createData('Western Province', 889, 6, 24, 4),
-  createData('Eastern  Province', 237, 9, 37, 4),
-  createData('Central Province', 262, 16, 24, 6),
-  createData('Northern Province', 305, 3, 67, 4),
-  createData('Southern Province', 356, 16, 49, 3),
-  createData('North Western Province', 159, 6, 24, 4),
-  createData('North Central Province', 237, 9, 37, 4),
-  createData('Uva Province', 262, 16, 24, 6),
-  createData('Sabaragamuwa Province', 305, 3, 67, 4),
+  createData('Western Province', 889, 21, 600),
+  createData('Eastern  Province', 237, 9, 37),
+  createData('Central Province', 262, 16, 24),
+  createData('Northern Province', 305, 3, 67),
+  createData('Southern Province', 356, 16, 49),
+  createData('North Western Province', 159, 6, 24),
+  createData('North Central Province', 237, 9, 37),
+  createData('Uva Province', 262, 16, 24),
+  createData('Sabaragamuwa Province', 305, 3, 67),
 ];
 
 export default function CollapsibleTable() {

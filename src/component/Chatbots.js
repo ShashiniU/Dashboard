@@ -14,9 +14,10 @@ const config={
          <ChatBot steps={[
      {
             id: '0',
-          message: 'Welcome to Corona Announcement Department!',
+          message: 'Welcome to Corona Announcement centre!',
          end:true
           },
+         
        
 
           ]
