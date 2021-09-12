@@ -21,7 +21,7 @@ Mobile Preview
 <section id="Description">
   
 ## Description
-This is a Dashboard design for both mobile and web applications. The Purpose of this application is to get Covid-19 updates in Sri Lanka. And also I drop a chatbot for more informations
+This Dashboard design for both mobile and web applications. The Purpose of this application is to get Covid-19 updates in Sri Lanka. And also I drop a chatbot for more informations
 
 
 
