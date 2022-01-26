@@ -49,7 +49,7 @@ URL - https://covid19-d.netlify.app/
 ## Features of this application
 
 <li>Open for FAQ</li>
-<li>Users can update about no.of New cases, Deaths, Recoveries </li>
+<li>Users View update about no.of New cases, Deaths, Recoveries </li>
 <li>User can get updates Provincial wise</li>
 <li>User can get updates District wise</li>
 
